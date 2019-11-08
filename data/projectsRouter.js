@@ -62,7 +62,7 @@ function handleProjectPost(req, res) {
 }
 
 function handleProjectsGetById(req, res) {
-  db.getProjects(req.params.id)
+  db.getProjectsById(req.params.id)
     .then(data => {
       res.status(200).json(data);
       console.table(data);
