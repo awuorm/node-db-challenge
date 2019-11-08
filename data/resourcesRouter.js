@@ -4,7 +4,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/",handleResourcesGet);
-router.post("/",handleResourcesPost)
+router.post("/",handleResourcesPost);
 function handleResourcesPost(req, res) {
     const resource = {
         resourceName: req.body.resourceName,
