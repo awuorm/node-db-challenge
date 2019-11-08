@@ -48,9 +48,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
         A primary key ensures that each record in a table is uniquely identifiable.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
+
         Foreign key.
 
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
           We need an association table to create a many to many relationship between two tables.
 
 
